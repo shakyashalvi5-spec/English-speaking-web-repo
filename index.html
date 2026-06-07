@@ -11,151 +11,177 @@
 
 <body>
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cloud With Shalvi | English Speaking Academy</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
 <header>
-  <div class="container nav-container">
-    <div class="logo">Cloud With Shalvi</div>
+  <div class="container nav">
+    <div class="logo">Cloud With <span>Shalvi</span></div>
     <nav>
       <a href="#about">About</a>
       <a href="#courses">Courses</a>
       <a href="#trainer">Trainer</a>
-      <a href="#contact">Contact</a>
+      <a href="#contact" class="nav-btn">Free Demo</a>
     </nav>
   </div>
 </header>
 
 <section class="hero">
+  <div class="shape shape-1"></div>
+  <div class="shape shape-2"></div>
+
   <div class="container hero-grid">
-    <div class="hero-content">
+    <div class="hero-text">
       <span class="badge">English Speaking Academy</span>
       <h1>Speak English With Confidence</h1>
-      <p>Improve spoken English, communication skills, interview confidence and personality development with practical live learning.</p>
+      <p>Learn spoken English, interview communication, personality development and confidence building with practical live sessions.</p>
 
-      <div class="hero-buttons">
-        <a href="#contact" class="btn">Enroll Now</a>
-        <a href="#courses" class="btn-secondary">View Courses</a>
+      <div class="hero-actions">
+        <a href="#contact" class="btn">Book Free Demo Class</a>
+        <a href="#courses" class="btn-outline">Explore Courses</a>
+      </div>
+
+      <div class="hero-points">
+        <span>✔ Live Classes</span>
+        <span>✔ Beginner Friendly</span>
+        <span>✔ Interview Practice</span>
       </div>
     </div>
 
-    <div class="hero-image">
-      <img src="https://cloudwithshalvi-assets.s3.ap-south-1.amazonaws.com/hero.jpg" alt="English speaking class">
+    <div class="hero-card">
+      <img src="https://cloudwithshalvi-assets.s3.ap-south-1.amazonaws.com/hero.jpg" alt="English learning">
+      <div class="floating-card">
+        <h3>100+</h3>
+        <p>Students Trained</p>
+      </div>
     </div>
   </div>
 </section>
 
 <section class="stats">
-  <div class="stat-box"><h2>100+</h2><p>Students Trained</p></div>
-  <div class="stat-box"><h2>50+</h2><p>Live Sessions</p></div>
-  <div class="stat-box"><h2>95%</h2><p>Confidence Growth</p></div>
+  <div><h2>100+</h2><p>Students Trained</p></div>
+  <div><h2>50+</h2><p>Live Sessions</p></div>
+  <div><h2>95%</h2><p>Confidence Growth</p></div>
 </section>
 
-<section id="about" class="section about">
-  <span class="section-tag">About Us</span>
-  <h2>Learn English in a Simple & Practical Way</h2>
-  <p>Cloud With Shalvi helps learners improve spoken English, grammar, confidence, interview communication and personality development through guided practice and real-life conversations.</p>
+<section id="about" class="about section">
+  <span class="section-tag">About Academy</span>
+  <h2>Practical English Learning for Real Life</h2>
+  <p>
+    Cloud With Shalvi helps students and professionals improve spoken English,
+    grammar, vocabulary, interview confidence and daily communication through
+    simple, practical and guided learning.
+  </p>
 </section>
 
 <section id="trainer" class="trainer">
-  <div class="container trainer-box">
-    <img src="https://cloudwithshalvi-assets.s3.ap-south-1.amazonaws.com/shalvi.jpg" alt="Shalvi Trainer">
+  <div class="container trainer-grid">
+    <div class="trainer-img">
+      <img src="https://cloudwithshalvi-assets.s3.ap-south-1.amazonaws.com/shalvi.jpg" alt="Shalvi">
+    </div>
 
-    <div class="trainer-content">
+    <div class="trainer-text">
       <span class="section-tag">Meet Your Trainer</span>
-      <h2>Shalvi</h2>
+      <h2>Hi, I’m Shalvi</h2>
       <h4>Founder & Head Trainer</h4>
-      <p>I help students and professionals build confidence in spoken English, interviews and daily communication through practical learning methods.</p>
-      <a href="#contact" class="btn">Start Learning</a>
+      <p>
+        I help learners speak English confidently using practical speaking tasks,
+        daily conversation practice, interview preparation and confidence-building methods.
+      </p>
+      <a href="#contact" class="btn">Start Your Journey</a>
     </div>
   </div>
 </section>
 
-<section id="courses" class="section">
-  <span class="section-tag">Courses</span>
-  <h2>Our Popular Courses</h2>
+<section id="courses" class="section courses">
+  <span class="section-tag">Our Courses</span>
+  <h2>Choose Your Learning Path</h2>
 
-  <div class="cards">
-    <div class="card">
+  <div class="course-grid">
+    <div class="course-card">
       <img src="https://cloudwithshalvi-assets.s3.ap-south-1.amazonaws.com/students.jpg" alt="Spoken English">
-      <div class="card-body">
-        <h3>Spoken English</h3>
-        <p>Improve fluency and confidence in daily conversations.</p>
-      </div>
+      <h3>Spoken English</h3>
+      <p>Improve daily communication, fluency and confidence.</p>
     </div>
 
-    <div class="card">
+    <div class="course-card">
       <img src="https://cloudwithshalvi-assets.s3.ap-south-1.amazonaws.com/books.jpg" alt="Grammar">
-      <div class="card-body">
-        <h3>Grammar Mastery</h3>
-        <p>Build strong grammar and vocabulary fundamentals.</p>
-      </div>
+      <h3>Grammar Mastery</h3>
+      <p>Build strong grammar, sentence formation and vocabulary.</p>
     </div>
 
-    <div class="card">
+    <div class="course-card">
       <img src="https://cloudwithshalvi-assets.s3.ap-south-1.amazonaws.com/teacher.jpg" alt="Interview">
-      <div class="card-body">
-        <h3>Interview Preparation</h3>
-        <p>Prepare confidently for HR and professional interviews.</p>
-      </div>
+      <h3>Interview Preparation</h3>
+      <p>Prepare for HR questions, self-introduction and workplace English.</p>
     </div>
   </div>
 </section>
 
-<section class="why-us">
-  <span class="section-tag">Why Choose Us</span>
-  <h2>Practical English Learning That Works</h2>
+<section class="why">
+  <div class="container">
+    <span class="section-tag">Why Choose Us</span>
+    <h2>Designed for Confidence, Not Just Grammar</h2>
 
-  <div class="features">
-    <div class="feature">Live Interactive Classes</div>
-    <div class="feature">Daily Speaking Practice</div>
-    <div class="feature">Confidence Building</div>
-    <div class="feature">Interview Guidance</div>
+    <div class="feature-grid">
+      <div class="feature">💬 Live Speaking Practice</div>
+      <div class="feature">📚 Simple Grammar Method</div>
+      <div class="feature">🎯 Interview Guidance</div>
+      <div class="feature">🚀 Confidence Building</div>
+    </div>
   </div>
 </section>
 
-<section class="testimonials">
-  <span class="section-tag">Testimonials</span>
-  <h2>Student Success Stories</h2>
+<section class="testimonials section">
+  <span class="section-tag">Success Stories</span>
+  <h2>What Students Say</h2>
 
   <div class="testimonial-grid">
     <div class="testimonial">
-      <p>"The sessions improved my confidence significantly."</p>
+      <p>“My confidence improved a lot. Now I can speak English without hesitation.”</p>
       <strong>- Priya Sharma</strong>
     </div>
 
     <div class="testimonial">
-      <p>"Excellent spoken English and interview guidance."</p>
+      <p>“Best guidance for spoken English and interview preparation.”</p>
       <strong>- Rahul Verma</strong>
+    </div>
+
+    <div class="testimonial">
+      <p>“Very simple teaching style. I improved my daily conversation skills.”</p>
+      <strong>- Anjali Singh</strong>
     </div>
   </div>
 </section>
 
-<section class="faq">
-  <span class="section-tag">FAQ</span>
-  <h2>Frequently Asked Questions</h2>
-
-  <div class="faq-item">
-    <h4>Do I need prior English knowledge?</h4>
-    <p>No. We start from the basics and improve step by step.</p>
-  </div>
-
-  <div class="faq-item">
-    <h4>Are classes online?</h4>
-    <p>Yes, online live sessions are available.</p>
-  </div>
-</section>
-
 <section id="contact" class="contact">
-  <h2>Book Your Free Demo Class</h2>
-  <p>Fill the form and connect directly on WhatsApp.</p>
+  <div class="container contact-box">
+    <div>
+      <span class="section-tag light">Free Demo Class</span>
+      <h2>Ready to Speak English Confidently?</h2>
+      <p>Fill the form and send your enrollment request on WhatsApp.</p>
+    </div>
 
-  <form onsubmit="sendToWhatsApp(event)">
-    <input type="text" placeholder="Your Name" required>
-    <input type="email" placeholder="Your Email" required>
-    <textarea placeholder="Your Message" required></textarea>
-    <button type="submit">Submit</button>
-  </form>
+    <form onsubmit="sendToWhatsApp(event)">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Enroll Now</button>
+      <p id="successMessage"></p>
+    </form>
+  </div>
 </section>
 
-<a href="https://wa.me/919997232297" class="whatsapp">WhatsApp</a>
+<a href="https://wa.me/919997232297" class="whatsapp">💬 Chat on WhatsApp</a>
 
 <footer>
   <h3>Cloud With Shalvi</h3>
@@ -172,11 +198,21 @@ function sendToWhatsApp(event) {
   const message = document.querySelector('textarea[placeholder="Your Message"]').value;
 
   const phoneNumber = "919997232297";
-  const text = `Hello Shalvi,%0A%0AName: ${name}%0AEmail: ${email}%0AMessage: ${message}%0A%0AI am interested in English Speaking classes.`;
 
-  window.open(`https://wa.me/${phoneNumber}?text=${text}`, "_blank");
+  const text = `Hello Shalvi,%0A%0AI want to enroll for English Speaking classes.%0A%0AName: ${name}%0AEmail: ${email}%0AMessage: ${message}%0A%0APlease share demo class details.`;
+
+  document.getElementById("successMessage").innerText =
+    "Thank you! Please send the WhatsApp message to complete your enrollment.";
+
+  setTimeout(() => {
+    window.open(`https://wa.me/${phoneNumber}?text=${text}`, "_blank");
+  }, 800);
+
+  event.target.reset();
 }
 </script>
 
 </body>
 </html>
+
+
